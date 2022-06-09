@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya&family=Montserrat&family=Roboto&display=swap');
+body {
+    background-color: rgb(20, 20, 20);
+    color: rgb(156, 51, 32);
+
+    font-size: 16px;
+    font-weight: normal;
+    font-family: 'Roboto', sans-serif;
+    
+
+    /*font: normal 16px 'Roboto', sans-serif; */
+}
+
+a {
+    color: rgb(182, 127, 127);
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+    text-decoration-color: rgb(207, 143, 143);
+}
+a:active {
+    color: rgb(255, 205, 205);
+}
+a:visited {
+    color: rgb(139, 107, 76);
+}
+
+.avatar {
+    width: 200px;
+    border-radius: 15px;
+    box-shadow: 4px 4px 14px rgb(48, 31, 26);
+}
+
+.info { 
+    display: flex;
+    margin-bottom: 15px;
+}
+
+@media (max-width: 850px) {
+    .info {
+        text-align: center;
+        display: block;
+    }
+}
+
+.info-text {
+    margin-left: 35px;
+}
+
+.info-text h4 {
+    margin-bottom: 10px;
+}
+
+.info p {
+    color: rgb(245, 211, 197);
+    margin: 0;
+    font-style: italic;
+    font-weight: bolder;
+    text-decoration: none;
+   /* text-transform: uppercase; */
+}
+ /*box model*/
+.container{
+    max-width: 850px;
+    margin: auto;
+    padding-top: 30px;
+}
+
+/*.social {
+background: rgb(226, 191, 191);
+padding: 10px 20px ;
+border: 5px solid rgb(207, 99, 99);
+border-bottom-style: dotted;
+border-top-width: 15px;
+margin: 20px;
+}*/
+
+.bg-blue {
+    background: rgb(221, 234, 253);
+}
+
+.bg-yellow {
+    background: rgb(221, 249, 252);
+}
+
+.bg-green {
+    background: rgb(221, 252, 229);
+}
+
+.card {
+    padding: 15px 20px;
+    margin-bottom: 20px;
+    border-radius: 15px;
+}
+
+.card h2 {
+    margin-bottom: 10px;
+}
+
+.list {
+    padding: 0px 20px;
+}
+
+.list li {
+    color: rgb(66, 66, 66);
+    margin-bottom: 7px;
+    padding-bottom: 3px;
+    border-bottom: 1px dotted rgb(156, 141, 119);
+}
+
+.table {
+    width: 100%;
+}
+
+.table td {
+    padding-bottom: 10px;
+}
+
+.table td:nth-child(2), .table td:nth-child(3) {
+    color: rgb(161, 123, 91);
+}
+
+.link-list {
+    list-style: none;
+    padding: 5px;
+}
+
+.link-list li {
+    margin-bottom: 7px;
+    padding-bottom: 3px;
+    border-bottom: 1px dotted rgb(163, 165, 132);
+}
